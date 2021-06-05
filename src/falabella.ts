@@ -1,4 +1,4 @@
-function falabella(number: number) {
+function falabella(number: number): number | string {
 
     if (number <= 0) {
         return 'Error: The argument must be a number greater than zero'
@@ -15,7 +15,7 @@ function falabella(number: number) {
     )
 }
 
-function divisible(dividend: number, divider: number) {
+function divisible(dividend: number, divider: number): boolean {
     return dividend % divider === 0
 }
 
